@@ -1,0 +1,105 @@
+body{
+    text-align: center;
+    background-color:antiquewhite;
+}
+
+img{
+  width:100;
+  height:100;
+    border-radius: 50%;
+    
+}
+h1{
+   font-family: 'Courgette', cursive;
+    color: darksalmon;
+}
+h2{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+#Favorite_food{
+     padding:40px;
+    text-align:center:
+}
+p{
+  font-size:18px;
+  color:darksalmon;
+    
+}
+h2{
+  font-size:20px;
+  color:darksalmon;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width:70px;
+    margin:8px auto;
+}
+
+.menu{
+   list-style: none;
+    font-family:cursive;
+   float:right;
+    top:10px;
+    right:30px;
+    cursor: pointer;
+    color:darksalmon;
+}
+.menu a{
+    color: darksalmon;
+}
+
+
+.link{
+    color:darksalmon;
+    display: inline;
+    padding-top:5px;
+    padding-left:9px;
+    padding-right:9px;
+    padding-bottom: 5px;
+}
+   .link:hover{
+    background-color: bisque;
+    color:burlywood;
+}
+
+
+
+#picture{
+    width:auto;
+    height:300px;
+   border-radius:0%;
+    transition: transform .2s;
+border: 10px solid darksalmon;
+    margin:20px;
+}
+.food
+{
+  background-color:antiquewhite;
+padding-top:20px;
+}
+#picture:hover {
+    transform: scale(0.9);
+}
+.scpic{
+    width:auto;
+    height:300px;
+   border-radius:0%;
+    margin:20px;
+    transition: transform .2s;
+border: 10px solid lightblue;
+}
+.scpic:hover {
+    transform: scale(0.9);
+}
+.rrpic{
+    width:auto;
+    height:300px;
+   border-radius:0%;
+    margin:20px;
+    transition: transform .2s;
+border: 10px solid burlywood;
+}
+.rrpic:hover {
+    transform: scale(0.9);
+}
